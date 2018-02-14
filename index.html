@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="assets/img/baba-logo.png">
+	<title>Home - E-Learning Babastudio</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom Google Web Font -->
+	<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+	<!-- Style -->
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/animate.css" rel="stylesheet">
+
+	<script src="assets/js/modernizr-2.8.3.min.js"></script>  
+
+</head>
+<body>
+	<header>
+		<nav class="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="nav-left">
+							<li><img src="assets/img/call.png"> <b>Call Us</b> : <small>021-5366-4008</small></li>
+							<li><a href="">Daftar</a></li>
+							<li style="padding-top: 14px;">|</li>
+							<li><a href="" type="button" data-toggle="modal" data-target="#myModal">Masuk</a></li><!-- Trigger the modal with a button -->
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul class="nav-right">
+							<li>
+								<input type="" name="" placeholder="Cari di Sini" /><i class="fa fa-search"></i>
+							</li>
+							<li><a href=""><img src="assets/img/plus.png"></a></li>
+							<li><a href=""><img src="assets/img/tw.png"></a></li>
+							<li><a href=""><img src="assets/img/fb.png"></a></li>
+							<li><a href=""><img src="assets/img/cart.png"><span class="cart">0</span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<nav id="mainNav" class="navbar navbar-default">
+			<!--menu-->
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar top-bar"></span>
+						<span class="icon-bar middle-bar"></span>
+						<span class="icon-bar bottom-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand page-scroll"><img src="assets/img/baba-logo.png" class="logo"></a>
+				</div>
+
+				<!--navigation-->
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="tentang-kami">Tentang Kami</a></li>
+						<li><a href="cara-kerja">Cara Kerja</a></li>
+						<li><a href="kursus.html">Kursus</a></li>
+						<li><a href="konsultasi">Konsultasi</a></li>
+						<li><a href="kontak">Kontak</a></li>
+						<li>
+							<a href="" class="dropdown" type="button" data-toggle="dropdown">
+								<div class="profil">
+									<div class="col-md-3 col-xs-3">
+										<img src="assets/img/img-admin.png" class="img-profil">
+									</div>
+									<div class="col-md-9 col-xs-9">
+										Adhe Kurniawan <i class="fa fa-caret"></i><span class="caret"></span>
+									</div>
+								</div>
+								<ul class="dropdown-menu">
+									<li><a href=""><i class="fa fa-user"></i> Akun Saya</a></li>
+									<li><a href="#"><i class="fa fa-book"></i> Sertifikat Saya (0)</a></li>
+									<li><a href="#"><i class="fa fa-money"></i> Riwayat Pembayaran</a></li>
+									<li class="divider"></li>
+									<li><a href=""><i class="fa fa-gear"></i> Ubah Password</a></li>
+									<li><a href="#"><i class="fa fa-power-off"></i> Keluar</a></li>
+								</ul>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header><!-- header role="banner" -->
+
+
+	<section id="cover">
+		<div class="container">
+			<div class="row">
+				<div class="banner col-md-6 col-sm-6">
+					<h1 class="headline wow fadeInDown">BABASTUDIO E - LEARNING</h1>
+					<div class="line wow fadeInRight"></div>
+					<p class="subline wow fadeInUp">Tempat Kursus Online Bersertifikat #1 di Indonesia. Babastudio E-Learning menggunakan sistem NBLS yang telah diuji selama 10 tahun pada puluhan ribu peserta. Buruan Daftar Sekarang !</p>
+					<a href="" class="btn-green wow fadeInUp">AMBIL KURSUS DI SINI</a>
+				</div>
+				<div class="col-md-6 col-sm-6 wow fadeInDown">
+					<div class="wrap-sign">
+
+						<ul class="nav nav-pills">
+							<li class="active tab-daftar"><a data-toggle="tab" href="#daftar" >DAFTAR</a></li>
+							<li class="tab-masuk"><a data-toggle="tab" href="#masuk">MASUK</a></li>
+						</ul>
+
+						<div class="tab-content">
+							<div id="daftar" class="tab-pane fade in active">
+								<form method="post" action="">
+									<div class="form-group">
+										<label>Email</label>	
+										<input placeholder="Email" name="" type="email" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>Username</label>	
+										<input placeholder="Username" name="" type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>Password</label>	
+										<input placeholder="*********" name="" type="password" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<a href="" class="btn-submit col-md-12">SUBMIT</a>
+									</div>
+								</form>
+							</div>
+
+							<div id="masuk" class="tab-pane fade">
+								<div class="form-group">
+									<label>Email</label>	
+									<input placeholder="Email / Username" name="" type="email" class="form-control" required />
+								</div>
+								<div class="form-group">
+									<label>Password</label>	
+									<input placeholder="*********" name="" type="password" class="form-control" required />
+								</div>
+								<div class="form-group">
+									<input type="checkbox" /> Ingatkan Saya
+								</div>
+								<div class="form-group">
+									<a href="" class="btn-submit col-md-12">SUBMIT</a>
+								</div>
+								<p class="text-right" style="position:relative;top: 30px;"><a href="">Lupa Password ?</a></p>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="liputan">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="video-liputan wow fadeInRight">
+					<video class="videos" controls> 
+						<source src="assets/video/video-liputan.mp4" type="video/mp4"> 
+						</video>
+					</div>
+				</div>
+				<div class="col-md-6 wow fadeInLeft">
+					<h1 class="text-left title">Liputan Babastudio E-learning di kompas TV bersama Alumni</h1>
+					<h4 class="desc">
+						Kompas TV meliput Babastudio E-learning karena, memberikan kursus gratis pada lebih dari 500 orang setiap harinya.
+					</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="tawaran">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 wow fadeInDown">
+					<h1 class="title text-center">Apa yang kami tawarkan untuk Anda ?</h1>
+					<p class="subtitle">Berikut adalah beberapa feature yang baba studio tawarkan, dengan mendapatkan sertifikat resmi dan program unggulan.</p>
+				</div>
+				<div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4"><div class="line-black"></div></div>
+				<div class="box">
+					<div class="col-md-6 wow fadeInLeft">
+						<div class="isi">
+							<div class="col-md-2">
+								<img src="assets/img/icon/sertifikat.png">
+							</div>
+							<div class="col-md-10">
+								<h3>SERTIFIKAT RESMI</h3>
+								<p class="desc">Sertifikat dikeluarkan oleh institusi pendidikan ternama yang telah memiliiki izin dari departemen pendidikan. Sertifikat dapat disebarkan ke jejaring sosial.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wow fadeInLeft">
+						<div class="isi">
+							<div class="col-md-2">
+								<img src="assets/img/icon/ternama.png">
+							</div>
+							<div class="col-md-10">
+								<h3>PRAKTISI TERNAMA</h3>
+								<p class="desc">Materi dibuat oleh praktisi yang telah diakui secara Nasional.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wow fadeInRight">
+						<div class="isi">
+							<div class="col-md-2">
+								<img src="assets/img/icon/pengajar.png">
+							</div>
+							<div class="col-md-10">
+								<h3>PENGAJAR SELALU ONLINE</h3>
+								<p class="desc">Anda akan memperoleh manfaat yang sama seperti Anda bertatap muka dengan instruktur didalam kelas.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wow fadeInRight">
+						<div class="isi">
+							<div class="col-md-2">
+								<img src="assets/img/icon/kampus.png">
+							</div>
+							<div class="col-md-10">
+								<h3>KOMUNITAS EKSKLUSIF</h3>
+								<p class="desc">Anda dapat belajar dan berdiskusi dari peserta lain di program yang sama.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="student">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 wow fadeInUp">
+					<h1 class="title text-center">Lebih dari 3000 orang telah menggunakan sistem Babastudio E-learning untuk Kursus Online</h1>
+					<div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4"> <div class="line-white"></div></div>
+				</div>
+				<div class="box">
+					<div class="col-md-4 col-sm-6 wow fadeInDown">
+						<div class="student-container">
+							<p>" Dengan sistem Babastudio E-learning, saya tidak perlu khawatir dengan jadwal kuliah yang padat. Saya bisa mempelajari materi sekolahpintar kapan pun saya mau. "</p>
+							<div class="line-student"></div>
+							<div class="profil-student"><a href=""><img src="assets/img/student/student-1.jpg"></a></div>
+							<div class="student-name">
+								<a href=""><span class="username">CLARISA</span></a>
+								<p class="status">( MAHASISWI BINUS )</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 wow fadeInUp">
+						<div class="student-container">
+							<p>" Sistem Babastudio E-learning membuat suasana belajar menjadi lebih fun, kompetitif, dan interaktif. "</p>
+							<div class="line-student"></div>
+							<div class="profil-student"><a href=""><img src="assets/img/student/student-2.jpg"></a></div>
+							<div class="student-name">
+								<a href=""><span class="username">MARISA</span></a>
+								<p class="status">( MAHASISWI BINUS )</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 wow fadeInDown">
+						<div class="student-container">
+							<p>" Sistem pembelajaranya efektif dan profesional, mudah dipahami dan dimengerti. "</p>
+							<div class="line-student"></div>
+							<div class="profil-student"><a href=""><img src="assets/img/student/student-3.jpg"></a></div>
+							<div class="student-name">
+								<a href=""><span class="username">HILMI</span></a>
+								<p class="status">( SISWA SMK MUHAMMADIYAH 9 )</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 wow fadeInUp">
+						<div class="student-container">
+							<p>" Babastudio E-learning canggih, gaya pengajarannya to the point. "</p>
+							<div class="line-student"></div>
+							<div class="profil-student"><a href=""><img src="assets/img/student/student-4.jpg"></a></div>
+							<div class="student-name">
+								<a href=""><span class="username">DONNY</span></a>
+								<p class="status">( BISNIS ANALIS UOB BANK )</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 wow fadeInDown">
+						<div class="student-container">
+							<p>" Babastudio E-learning sangat membantu, saya bisa mengulang video materi lebih dari satu kali jika ada materi yang sulit dipahami. "</p>
+							<div class="line-student"></div>
+							<div class="profil-student"><a href=""><img src="assets/img/student/student-5.jpg"></a></div>
+							<div class="student-name">
+								<a href=""><span class="username">MEGA</span></a>						
+								<p class="status">(STAF AKUNTAN)</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 wow fadeInUp">
+						<div class="student-container">
+							<p>" Gaya pengajarannya modern, sebuah trobosan bagi dunia pendidikan Indonesia. "</p>
+							<div class="line-student"></div>
+							<div class="profil-student"><a href=""><img src="assets/img/student/student-6.jpg"></a></div>
+							<div class="student-name">
+								<a href=""><span class="username">DARMA</span></a>
+								<p class="status">( DOSEN SURYA UNIVERSITY )</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-offset-3 text-center wow fadeInUp" style="margin-top: 70px;">
+					<a href="" class="btn btn-transparent">KENALAN DAN LIHAT SERTIFIKAT MEREKA</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="kursus">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 wow fadeInDown">
+					<h1 class="title text-center">KURSUS POPULER</h1>
+				</div>
+				<div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4 wow fadeInDown"><div class="line-black"></div></div>
+
+				<div class="box">
+					<div class="col-md-3 col-sm-6 wow fadeInLeft">
+						<div class="kursus-container">
+							<div class="img-kursus"><img src="assets/img/kursus/kursus-1.jpg"></div>
+							<div class="tags">Data Entry</div>
+							<div class="img-post-circle"><img src="assets/img/img-admin.png"></div>
+							<div class="kursus-desc">
+								<small>By Babastudio | <span>15 April 2017</span></small>
+								<a href="detil-kursus.html"><h4 class="kursus-title">Belajar VBA EXCEL</h4></a>
+								<p>Selama ini edit photo selalu menggunakan software photoshop atau gimp , tetapi  . . .</p>
+							</div>
+							<div class="line-kursus"></div>
+							<div class="kursus-detil">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<i class="fa fa-group"> </i> 12.000 Siswa
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<span class="price">GRATIS</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInRight">
+						<div class="kursus-container">
+							<div class="img-kursus"><img src="assets/img/kursus/kursus-2.jpg"></div>
+							<div class="tags">SEO</div>
+							<div class="img-post-circle"><img src="assets/img/img-admin.png"></div>
+							<div class="kursus-desc">
+								<small>By Babastudio | <span>15 April 2017</span></small>
+								<a href="detil-kursus.html"><h4 class="kursus-title">Artikel Yang Di Baca 5 Juta Orang/hari</h4></a>
+								<p>Selama ini edit photo selalu menggunakan software photoshop atau gimp , tetapi  . . .</p>
+							</div>
+							<div class="line-kursus"></div>
+							<div class="kursus-detil">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<i class="fa fa-group"></i> 12.000 Siswa
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<span class="price">GRATIS</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInLeft">
+						<div class="kursus-container">
+							<div class="img-kursus"><img src="assets/img/kursus/kursus-3.jpg"></div>
+							<div class="tags">Multimedia</div>
+							<div class="img-post-circle"><img src="assets/img/img-admin.png"></div>
+							<div class="kursus-desc">
+								<small>By Babastudio | <span>15 April 2017</span></small>
+								<a href="detil-kursus.html"><h4 class="kursus-title">Download Video Youtube Tanpa IDM</h4></a>
+								<p>Selama ini edit photo selalu menggunakan software photoshop atau gimp , tetapi  . . .</p>
+							</div>
+							<div class="line-kursus"></div>
+							<div class="kursus-detil">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<i class="fa fa-group"></i> 12.000 Siswa
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<span class="price">Rp. 0</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInRight">
+						<div class="kursus-container">
+							<div class="img-kursus"><img src="assets/img/kursus/kursus-4.jpg"></div>
+							<div class="tags">Web Design</div>
+							<div class="img-post-circle"><img src="assets/img/img-admin.png"></div>
+							<div class="kursus-desc">
+								<small>By Babastudio | <span>15 April 2017</span></small>
+								<a href="detil-kursus.html"><h4 class="kursus-title">Cara Edit Foto Tanpa Photoshop</h4></a>
+								<p>Selama ini edit photo selalu menggunakan software photoshop atau gimp , tetapi  . . .</p>
+							</div>
+							<div class="line-kursus"></div>
+							<div class="kursus-detil">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<i class="fa fa-group"></i> 12.000 Siswa
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<span class="price">GRATIS</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="motivation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-12 wow fadeInRight">
+					<div class="img-motivation"><img src="assets/img/bill-gates.png"></div>
+				</div>
+				<div class="col-md-7 col-sm-7 col-xs-12 wow fadeInLeft">
+					<div class="desc">
+						<img src="assets/img/kutip-kanan.png">
+						<h4 class="desc">Dalam 5 tahun ke depan, Online learning akan menggantikan gaya pengajaran Konvensional di Kampus-Kampus 
+							- Bill Gates <img src="assets/img/kutip-kiri.png"></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="sponsore">
+			<div class="container">
+				<div class="row">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/1.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/2.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/3.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/4.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/5.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/6.png">
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/1.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/2.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/3.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/4.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/5.png">
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="assets/img/sponsore/6.png">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<h4 class="col-md-12">Diliput Oleh</h4>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section  id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="box">
+
+						<div class="col-md-4">
+							<div class="logo-footer"><img src="assets/img/baba-logo.png"></div>
+							<div class="desc">
+								<p>
+									Babastudio menggunakan sistem NBLS yang telah diuji selama 10 tahun pada puluhan ribu peserta. Sistem ini akan membantu Anda yang awam maupun yang telah memiliki pengalaman sebelumnya. Dengan Menggunakan NBLS meskipun anda Kursus Secara Onlie, tapi anda kan tetap memperoleh manfaat yang sama seperti Anda bertatap muka dengan instruktur didalam kelas.
+								</p>
+								<p></p>
+								<p>
+									Dengan sistem pembelajaran online ini, Babastudio 
+									berharap dapat memberikan dampak positif di dalam dunia pendidikan Indonesia yang dapat tersalurkan dengan cepat, mudah, dan kompeten. Demi terciptanya Indonesia Pintar sampai ke seluruh penjuru Negeri.
+								</p>
+								<p>
+									- Salam Pintar -
+								</p>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>LINK</h4>
+							<p><a href="">Beranda</a></p>
+							<p><a href="">Tentang Kami</a></p>
+							<p><a href="">Cara Penggunaan</a></p>
+							<p><a href="">Kursus</a></p>
+							<p><a href="">Persyaratan Pengguna</a></p>
+							<p><a href="">Kebijakan Privasi</a></p>
+							<p><a href="">Blog</a></p>
+							<p><a href="">Forum</a></p>
+						</div>
+						<div class="col-md-3">
+							<h4>METODE PEMBAYARAN</h4>
+							<img src="assets/img/bca.png">
+							<img src="assets/img/mandiri.png">
+						</div>
+						<div class="col-md-3">
+							<h4>KONTAK KAMI</h4>
+							<p>Head Office(Permata Hijau,Jakarta) Ruko Grand ITC Permata Hijau Blok Saphire No.14 Jl. Letjen Soepeno (arteri Permata Hijau) Kebayoran Lama, Grogol Utara, Jakarta Selatan 12210 Phone: (021) 5366 4008</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<p class="copyright">© 2017 Sekolah Pintar | Developed By <a href="https://babastudio.com">Baba Studio</a> | Design By <a href="http://behance.net/adhekurniab374">Adhe Kurniawan</p>
+
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>Some text in the modal.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- JavaScript -->
+		<script src="assets/js/jquery-1.10.2.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="assets/js/jquery-1.4.js"></script>
+<!--
+
+
+	<script src="assets/js/stickUp.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function($) {/
+			$(document).ready( function() {
+				$('.navbar-default').stickUp();
+			});
+		});
+	</script>
+
+-->
+
+<!-- Smoothscroll -->
+<script type="text/javascript" src="assets/js/jquery.corner.js"></script> 
+<script src="assets/js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+</html>
+</body>
+</html>
